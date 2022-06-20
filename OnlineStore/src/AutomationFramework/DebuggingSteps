@@ -1,0 +1,7 @@
+//go to link which company provide to clone the project.
+create one folder then clone the project using terminal.
+go to new import->Existing Maven Project.
+browse and open the directory.
+import.
+check the Pom.xml file
+

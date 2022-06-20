@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Yahoo app test auromation suite" verbose="1" >
+  <test name="multiple" >
+  <classes>
+       <class name="com.test.GoogleTest" />
+          </classes>
+  </test>
+ 
+  
+</suite>

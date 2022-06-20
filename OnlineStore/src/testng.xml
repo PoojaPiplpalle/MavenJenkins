@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Login test auromation suite" verbose="1" >
+  <test name="LoginTest" >
+
+  <parameter name="Browser" value="chrome"></parameter>
+  <parameter name="Email" value="Poojaranip14@gmail.com"/>
+  <parameter name="Password" value="Premamadhav1@"/>
+  <classes>
+       <class name="com.parameters.LoginTest" />
+          
+       
+  </classes>
+  </test>
+  </suite>

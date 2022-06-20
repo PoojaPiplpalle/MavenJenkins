@@ -1,0 +1,62 @@
+TestNg---UnitTesting Framework
+TEstNg is also called TDD framework-Test Driven Development.
+Purpose : 1.design Test case in systematic way.
+2.Generate good HTML report.
+3.Gives lot of different annotation.  
+4 can Define dependencies also.
+5.Grouping.
+6.Most Imp is Data Provider feature-Interview Question.
+
+--we can give different priorities to the test cases.
+testNG is open source and freely available in mrket.
+It is available in form of JAR Files.
+It is also called as JAVA UNIT testing Framework.
+
+Install TestNG in Eclipse.
+1.Search TestNG pulgin and search frr the below URL
+https://www.techbeamers.com/install-testng-in-eclipse-ide/
+go to help and click on market place search TestNG and click on install
+after that click on i agree and finish and restart the eclipse.
+Add TestNG Libraray in Project
+ryt click on projet->property->Java build path->add library slect TESTNg-next-click on finih
+clcik on apply and finish.
+Creat a package and create a class for testng.
+
+Dont select main method when class is created.
+TestNG provide Annotation.
+1.@BeforeClass-each and every annotation should be associated with method.
+
+Click on refresh u will find one test-output folder
+open it and click on index.html and u  will find result of testcases,timing n ol
+
+
+Topics to cover:
+TestNG Data Provider - How to get test data from Excel in Selenium using TestNG Data provider.
+@Parameters in TestNg: How to pass parameter from testing.xml
+TestNG Parameters - Test Case Parameterization in TestNG
+Retry Logic In TestNG || How to execute failed test cases in Selenium WebDriver
+Taking ScreenShot ONLY for Failed Tests in Selenium using TestNG Listener.
+Soft Assertion in TestNG in Selenium Webdriver || Soft Assert vs Hard Assert in TestNG
+\Real Time Use Case of HashMap in Selenium || Important Selenium Interview Question
+how to use HashMap in Selenium WebDriver || Interview Question.
+Selenium Video - Hashmap with TestNG Dataprovider for Data Driven Testing in Selenium WebDriver
+Pom Videos.
+
+
+TestNG Interview Questions and Answers || TestNG Framework Interview Questions
+
+How to debug Selenium Framework Code using Eclipse Debugger.
+Add Screenshot in Extent Report Automatically using Selenium WebDriver
+How to add Screenshot in Extent Report for Failed Test Cases in Selenium
+Integrate Extent Report and Logs in Framework.
+
+What is HTML DOM & StaleElement Exception in Selenium
+Java
+Mystery of StaleElementReferenceException in Selenium WebDriver
+How to use Singleton Pattern in Selenium WebDriver
+SingletonDesign Pattern In Java || How to achieve Singleton In Selenium WebDriver
+Popular Common Selenium Exceptions
+Popular Common Selenium Exceptions
+Learn Maven (Build Automation Tool) with TestNg and Selenium
+log4j and extent report to generate report.
+

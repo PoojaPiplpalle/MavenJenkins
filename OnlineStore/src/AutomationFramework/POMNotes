@@ -1,0 +1,40 @@
+1.Page object model is a approach /design pattern.
+we will integrate with data driven framework+TestNg to writing testcases.
+we have to create java class for each page.
+
+
+
+Object Repositories:defining  Webobject/WebElements:means collection of all WebObjects/WebElements
+1.Each and every java class we have to define Webobject/WebElements.
+2.We have to define actions/methods for features of that particular page.
+
+
+Layers:
+1.We have to create page layer(Page Lib).-package:-com.qa.pages
+2WE have to create test layer for each and every class/means we have to creata seperate class for testcases:cpm.qa.tests
+3We are using TestNG for testlayers.
+4We have to create TestBase class which is parent of every classs.:com.qa.base
+5.Config properties for defining url,username password.browser etc.basic properties.:-com.qa.config	
+6.Reading data from excel using apache poi.:com.qa.testdata
+7.Create some utilty class(test util.java) which contains common utility like taking screenshot,sending mail().:com.qa.util.
+8.Create TestReport:-Pass/Fail like HTML report,XML reports,TestNg reports,extent report.:TestOutput/reports folders
+
+Base class includes:
+In TestBase class we are defining like initilisating of webdriver.:
+
+maxmize window method
+implicit wait
+page time out
+delete all cookies()
+get(URL)
+
+All pages are interconnected to each otheres that's it is called as POM.
+//POM is also called page chaining model becoz there is a chain between pages.
+
+so :
+ we have different components means layers.
+ Techonoly wise we are using :
+ Java/seleium/TEstNG/Maven/Apache poi api/Extent reports/testng reports/logj api/Jenkins-ci/GIT repositories/Selenium grid for parallel testing  
+ and different broswer:chrome/ff/ie/platform:window/mac and executing test cases in sauce labs/VMs/BrowserStack.
+
+

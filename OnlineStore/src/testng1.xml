@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Yahoo app test auromation suite" verbose="1" >
+  <test name="ParameterTest" >
+  <parameter name="envi" value="QA"/>
+  <parameter name="Browser" value="chrome">
+  <parameter name="url" value="https://login.yahoo.com/"/>
+  <parameter name="emailid" value="poojapiple@yahoo.com"/>
+  </parameter>
+    <classes>
+       <class name="com.parameters.ParameterTest" />
+          
+       
+    </classes>
+  </test>
+ 
+  
+</suite>
